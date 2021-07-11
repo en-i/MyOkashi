@@ -11,6 +11,8 @@
 		DC11AE1A269AED7F0014F9DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11AE19269AED7F0014F9DE /* ContentView.swift */; };
 		DC11AE1C269AED800014F9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC11AE1B269AED800014F9DE /* Assets.xcassets */; };
 		DC11AE1F269AED800014F9DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC11AE1E269AED800014F9DE /* Preview Assets.xcassets */; };
+		DC11AE27269B0F1D0014F9DE /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11AE26269B0F1D0014F9DE /* OkashiData.swift */; };
+		DC11AE29269B48260014F9DE /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11AE28269B48260014F9DE /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DC11AE1B269AED800014F9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC11AE1E269AED800014F9DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC11AE20269AED800014F9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC11AE26269B0F1D0014F9DE /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
+		DC11AE28269B48260014F9DE /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				DC11AE17269AED7F0014F9DE /* MyOkashiApp.swift */,
 				DC11AE19269AED7F0014F9DE /* ContentView.swift */,
+				DC11AE26269B0F1D0014F9DE /* OkashiData.swift */,
+				DC11AE28269B48260014F9DE /* SafariView.swift */,
 				DC11AE1B269AED800014F9DE /* Assets.xcassets */,
 				DC11AE20269AED800014F9DE /* Info.plist */,
 				DC11AE1D269AED800014F9DE /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC11AE29269B48260014F9DE /* SafariView.swift in Sources */,
 				DC11AE1A269AED7F0014F9DE /* ContentView.swift in Sources */,
+				DC11AE27269B0F1D0014F9DE /* OkashiData.swift in Sources */,
 				DC11AE18269AED7F0014F9DE /* MyOkashiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
